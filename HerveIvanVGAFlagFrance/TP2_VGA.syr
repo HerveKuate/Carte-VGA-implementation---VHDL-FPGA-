@@ -1,0 +1,590 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: TP2_VGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TP2_VGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TP2_VGA"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : TP2_VGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/DrawFlagFrance.vhd" in Library work.
+Architecture behavioral of Entity drawflagfrance is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ipcore_dir/ESIGETELWord.vhd" in Library work.
+Architecture esigetelword_a of Entity esigetelword is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ipcore_dir/ESIGETELWord2.vhd" in Library work.
+Architecture esigetelword2_a of Entity esigetelword2 is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ipcore_dir/ESIGETELWord3.vhd" in Library work.
+Architecture esigetelword3_a of Entity esigetelword3 is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/HVPosSignal.vhd" in Library work.
+Architecture behavioral of Entity hvpossignal is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/FranceFlagDraw.vhd" in Library work.
+Architecture behavioral of Entity hvsynchronitionsignal is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ColorRamDataOutput.vhd" in Library work.
+Architecture behavioral of Entity adresseramdataoutput is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ClockDivisor.vhd" in Library work.
+Architecture behavioral of Entity divclk is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_02.vhd" in Library work.
+Architecture behavioral of Entity finalcolorsignal is up to date.
+Compiling vhdl file "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_01.vhd" in Library work.
+Architecture behavioral of Entity tp2_vga is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TP2_VGA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DrawFlagFrance> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HVPosSignal> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HVSynchronitionSignal> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AdresseRamDataOutput> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DivClk> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FinalColorSignal> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TP2_VGA> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_01.vhd" line 132: Instantiating black box module <ESIGETELWord>.
+WARNING:Xst:2211 - "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_01.vhd" line 133: Instantiating black box module <ESIGETELWord2>.
+WARNING:Xst:2211 - "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_01.vhd" line 134: Instantiating black box module <ESIGETELWord3>.
+Entity <TP2_VGA> analyzed. Unit <TP2_VGA> generated.
+
+Analyzing Entity <DrawFlagFrance> in library <work> (Architecture <behavioral>).
+Entity <DrawFlagFrance> analyzed. Unit <DrawFlagFrance> generated.
+
+Analyzing Entity <HVPosSignal> in library <work> (Architecture <behavioral>).
+Entity <HVPosSignal> analyzed. Unit <HVPosSignal> generated.
+
+Analyzing Entity <HVSynchronitionSignal> in library <work> (Architecture <behavioral>).
+Entity <HVSynchronitionSignal> analyzed. Unit <HVSynchronitionSignal> generated.
+
+Analyzing Entity <AdresseRamDataOutput> in library <work> (Architecture <behavioral>).
+Entity <AdresseRamDataOutput> analyzed. Unit <AdresseRamDataOutput> generated.
+
+Analyzing Entity <DivClk> in library <work> (Architecture <behavioral>).
+Entity <DivClk> analyzed. Unit <DivClk> generated.
+
+Analyzing Entity <FinalColorSignal> in library <work> (Architecture <behavioral>).
+Entity <FinalColorSignal> analyzed. Unit <FinalColorSignal> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DrawFlagFrance>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/DrawFlagFrance.vhd".
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Found 10-bit comparator greater for signal <B$cmp_gt0000> created at line 37.
+    Found 10-bit comparator greater for signal <B$cmp_gt0001> created at line 37.
+    Found 10-bit comparator greater for signal <B$cmp_gt0002> created at line 48.
+    Found 10-bit comparator less for signal <B$cmp_lt0000> created at line 37.
+    Found 10-bit comparator less for signal <B$cmp_lt0001> created at line 37.
+    Found 10-bit comparator less for signal <B$cmp_lt0002> created at line 48.
+    Found 10-bit comparator greatequal for signal <G$cmp_ge0000> created at line 48.
+    Found 10-bit comparator greatequal for signal <G$cmp_ge0001> created at line 48.
+    Found 10-bit comparator lessequal for signal <G$cmp_le0000> created at line 48.
+    Found 10-bit comparator lessequal for signal <G$cmp_le0001> created at line 48.
+    Found 10-bit comparator greater for signal <R$cmp_gt0000> created at line 60.
+    Found 10-bit comparator less for signal <R$cmp_lt0000> created at line 60.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred  12 Comparator(s).
+Unit <DrawFlagFrance> synthesized.
+
+
+Synthesizing Unit <HVPosSignal>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/HVPosSignal.vhd".
+    Found 1-bit register for signal <EndScreen>.
+    Found 10-bit comparator less for signal <EndScreen$cmp_lt0000> created at line 58.
+    Found 10-bit comparator less for signal <EndScreen$cmp_lt0001> created at line 58.
+    Found 10-bit comparator greater for signal <myDraw$cmp_gt0000> created at line 42.
+    Found 10-bit comparator greater for signal <myDraw$cmp_gt0001> created at line 42.
+    Found 10-bit comparator less for signal <myDraw$cmp_lt0000> created at line 42.
+    Found 10-bit up counter for signal <myHpos>.
+    Found 10-bit comparator less for signal <myVideoON$cmp_lt0000> created at line 41.
+    Found 10-bit comparator less for signal <myVideoON$cmp_lt0001> created at line 41.
+    Found 10-bit up counter for signal <myVpos>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+Unit <HVPosSignal> synthesized.
+
+
+Synthesizing Unit <HVSynchronitionSignal>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/FranceFlagDraw.vhd".
+    Found 1-bit register for signal <HS>.
+    Found 1-bit register for signal <VS>.
+    Found 10-bit comparator greatequal for signal <HS$cmp_ge0000> created at line 38.
+    Found 10-bit comparator less for signal <HS$cmp_lt0000> created at line 38.
+    Found 10-bit comparator greater for signal <VS$cmp_gt0000> created at line 43.
+    Found 10-bit comparator less for signal <VS$cmp_lt0000> created at line 43.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <HVSynchronitionSignal> synthesized.
+
+
+Synthesizing Unit <AdresseRamDataOutput>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ColorRamDataOutput.vhd".
+WARNING:Xst:647 - Input <EndScreen> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Draw> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:643 - "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ColorRamDataOutput.vhd" line 71: The result of a 10x11-bit multiplication is partially used. Only the 19 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 14-bit register for signal <myAdress>.
+    Found 14-bit adder for signal <myAdress$add0000> created at line 71.
+    Found 10-bit subtractor for signal <myAdress$addsub0000> created at line 71.
+    Found 14-bit comparator greatequal for signal <myAdress$cmp_ge0000> created at line 72.
+    Found 10x11-bit multiplier for signal <myAdress$mult0001> created at line 71.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Comparator(s).
+Unit <AdresseRamDataOutput> synthesized.
+
+
+Synthesizing Unit <DivClk>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/ClockDivisor.vhd".
+WARNING:Xst:1780 - Signal <MyCpt25Mhz> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <MyClk25Mhz>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DivClk> synthesized.
+
+
+Synthesizing Unit <FinalColorSignal>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_02.vhd".
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <FinalColorSignal> synthesized.
+
+
+Synthesizing Unit <TP2_VGA>.
+    Related source file is "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/VGAController_01.vhd".
+WARNING:Xst:653 - Signal <wea<0>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <myWriteEnableRam3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <myWriteEnableRam2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <myWriteEnableRam1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <myInputRam3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <myInputRam2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <myInputRam1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <douta3<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <douta2<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <dina<0>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <TP2_VGA> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 10x11-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 10-bit subtractor                                     : 1
+ 14-bit adder                                          : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 11
+ 1-bit register                                        : 10
+ 14-bit register                                       : 1
+# Comparators                                          : 24
+ 10-bit comparator greatequal                          : 3
+ 10-bit comparator greater                             : 7
+ 10-bit comparator less                                : 11
+ 10-bit comparator lessequal                           : 2
+ 14-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/ESIGETELWord.ngc>.
+Reading core <ipcore_dir/ESIGETELWord2.ngc>.
+Reading core <ipcore_dir/ESIGETELWord3.ngc>.
+Loading core <ESIGETELWord> for timing and area information for instance <RAM1>.
+Loading core <ESIGETELWord2> for timing and area information for instance <RAM2>.
+Loading core <ESIGETELWord3> for timing and area information for instance <RAM3>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 10x11-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 10-bit subtractor                                     : 1
+ 14-bit adder                                          : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+# Comparators                                          : 24
+ 10-bit comparator greatequal                          : 3
+ 10-bit comparator greater                             : 7
+ 10-bit comparator less                                : 11
+ 10-bit comparator lessequal                           : 2
+ 14-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram in unit U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram of type RAMB16_S1_S1 has been replaced by RAMB16
+INFO:Xst:1901 - Instance U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram in unit U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram of type RAMB16_S1_S1 has been replaced by RAMB16
+INFO:Xst:1901 - Instance U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram in unit U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram of type RAMB16_S1_S1 has been replaced by RAMB16
+
+Optimizing unit <TP2_VGA> ...
+
+Optimizing unit <HVPosSignal> ...
+WARNING:Xst:2677 - Node <U2/EndScreen> of sequential type is unconnected in block <TP2_VGA>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TP2_VGA, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TP2_VGA.ngr
+Top Level Output File Name         : TP2_VGA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 40
+
+Cell Usage :
+# BELS                             : 181
+#      GND                         : 7
+#      INV                         : 3
+#      LUT1                        : 21
+#      LUT2                        : 13
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 13
+#      LUT3_D                      : 1
+#      LUT4                        : 32
+#      LUT4_D                      : 3
+#      LUT4_L                      : 9
+#      MUXCY                       : 35
+#      MUXF5                       : 2
+#      VCC                         : 4
+#      XORCY                       : 34
+# FlipFlops/Latches                : 43
+#      FDR                         : 31
+#      FDRE                        : 10
+#      FDRS                        : 1
+#      FDS                         : 1
+# RAMS                             : 3
+#      RAMB16                      : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 39
+#      IBUF                        : 14
+#      OBUF                        : 25
+# MULTs                            : 1
+#      MULT18X18                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       53  out of   1920     2%  
+ Number of Slice Flip Flops:             43  out of   3840     1%  
+ Number of 4 input LUTs:                 99  out of   3840     2%  
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    173    23%  
+ Number of BRAMs:                         3  out of     12    25%  
+ Number of MULT18X18s:                    1  out of     12     8%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                                                                                                                   | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+U5/MyClk25Mhz1                     | BUFG                                                                                                                                                                                                                                    | 45    |
+RAM1/N1                            | NONE(RAM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram)| 1     |
+RAM2/N1                            | NONE(RAM2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram)| 1     |
+RAM3/N1                            | NONE(RAM3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram)| 1     |
+mclk                               | BUFGP                                                                                                                                                                                                                                   | 1     |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.586ns (Maximum Frequency: 104.324MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.216ns
+   Maximum combinational path delay: 6.305ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U5/MyClk25Mhz1'
+  Clock period: 9.586ns (frequency: 104.324MHz)
+  Total number of paths / destination ports: 2352 / 132
+-------------------------------------------------------------------------
+Delay:               9.586ns (Levels of Logic = 6)
+  Source:            U2/myVpos_6 (FF)
+  Destination:       U4/myAdress_13 (FF)
+  Source Clock:      U5/MyClk25Mhz1 rising
+  Destination Clock: U5/MyClk25Mhz1 rising
+
+  Data Path: U2/myVpos_6 to U4/myAdress_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            12   0.626   1.245  U2/myVpos_6 (U2/myVpos_6)
+     LUT2_L:I0->LO         1   0.479   0.123  U4/myAdress_addsub0000<9>_SW0 (N10)
+     LUT4:I3->O            9   0.479   0.955  U4/myAdress_addsub0000<9> (U4/myAdress_addsub0000<9>)
+     MULT18X18:A9->P12     1   2.826   0.976  U4/Mmult_myAdress_mult0001 (U4/myAdress_mult0001<12>)
+     LUT1:I0->O            1   0.479   0.000  U4/Madd_myAdress_add0000_cy<12>_rt (U4/Madd_myAdress_add0000_cy<12>_rt)
+     MUXCY:S->O            0   0.435   0.000  U4/Madd_myAdress_add0000_cy<12> (U4/Madd_myAdress_add0000_cy<12>)
+     XORCY:CI->O           1   0.786   0.000  U4/Madd_myAdress_add0000_xor<13> (U4/myAdress_add0000<13>)
+     FDR:D                     0.176          U4/myAdress_13
+    ----------------------------------------
+    Total                      9.586ns (6.286ns logic, 3.300ns route)
+                                       (65.6% logic, 34.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mclk'
+  Clock period: 2.263ns (frequency: 441.803MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.263ns (Levels of Logic = 0)
+  Source:            U5/MyClk25Mhz (FF)
+  Destination:       U5/MyClk25Mhz (FF)
+  Source Clock:      mclk rising
+  Destination Clock: mclk rising
+
+  Data Path: U5/MyClk25Mhz to U5/MyClk25Mhz
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.626   0.745  U5/MyClk25Mhz (U5/MyClk25Mhz1)
+     FDR:R                     0.892          U5/MyClk25Mhz
+    ----------------------------------------
+    Total                      2.263ns (1.518ns logic, 0.745ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'U5/MyClk25Mhz1'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            U3/HS (FF)
+  Destination:       hs (PAD)
+  Source Clock:      U5/MyClk25Mhz1 rising
+
+  Data Path: U3/HS to hs
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.626   0.681  U3/HS (U3/HS)
+     OBUF:I->O                 4.909          hs_OBUF (hs)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Delay:               6.305ns (Levels of Logic = 2)
+  Source:            btn<3> (PAD)
+  Destination:       an<3> (PAD)
+
+  Data Path: btn<3> to an<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  btn_3_IBUF (an_3_OBUF)
+     OBUF:I->O                 4.909          an_3_OBUF (an<3>)
+    ----------------------------------------
+    Total                      6.305ns (5.624ns logic, 0.681ns route)
+                                       (89.2% logic, 10.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.81 secs
+ 
+--> 
+
+Total memory usage is 266904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

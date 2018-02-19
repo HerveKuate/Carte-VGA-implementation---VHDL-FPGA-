@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+HVPosSignal instance_name (
+    .Clk(Clk), 
+    .HPos(HPos), 
+    .VPos(VPos), 
+    .VideoON(VideoON), 
+    .Draw(Draw)
+    );
+
+

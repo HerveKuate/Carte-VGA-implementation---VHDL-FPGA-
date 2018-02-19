@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Jan 25 18:53:25 2017
+
+drc -z S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,3 @@
+vhdl work "VGAController_02.vhd"
+vhdl work "ClockDivisor.vhd"
+vhdl work "VGAController_01.vhd"

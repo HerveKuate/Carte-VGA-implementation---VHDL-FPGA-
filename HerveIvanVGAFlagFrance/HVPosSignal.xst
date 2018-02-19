@@ -1,0 +1,5 @@
+set -tmpdir "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/xst/projnav.tmp"
+set -xsthdpdir "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/xst"
+elaborate
+-ifn HVPosSignal.prj
+-ifmt mixed

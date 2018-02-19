@@ -1,0 +1,131 @@
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+vhdtdtfi -lib work VGAController_02.vhd -lib work ClockDivisor.vhd -lib work VGAController_01.vhd -prj HerveIvanVGAFlagFrance -o TP2_VGA.spl -module TP2_VGA -template X:/Herve/Software/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 TP2_VGA.spl {X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.sym} 
+vhdtdtfi -prj HerveIvanVGAFlagFrance -o "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.tfi" -module TP2_VGA -template X:/Herve/Software/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work VGAController_02.vhd -lib work ClockDivisor.vhd -lib work VGAController_01.vhd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../HerveIvanVGAFlagFrance/ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 
+xst -intstyle ise -ifn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.xst" -ofn "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/TP2_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 "TP2_VGA.ngc" TP2_VGA.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o TP2_VGA_map.ncd TP2_VGA.ngd TP2_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 TP2_VGA_map.ncd TP2_VGA.ncd TP2_VGA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TP2_VGA.twx TP2_VGA.ncd -o TP2_VGA.twr TP2_VGA.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f TP2_VGA.ut TP2_VGA.ncd 

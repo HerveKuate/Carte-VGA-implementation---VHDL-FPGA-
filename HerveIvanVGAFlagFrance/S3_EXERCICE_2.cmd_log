@@ -1,0 +1,348 @@
+xst -intstyle ise -ifn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.xst" -ofn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.xst" -ofn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.xst" -ofn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.xst" -ofn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.xst" -ofn "X:/Herve/School/ESIGETEL/M1/VHDL/VGA_Project/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+vhdtdtfi -lib work VGAController_02.vhd -lib work ClockDivisor.vhd -lib work VGAController_01.vhd -prj VGA_Project -o S3_EXERCICE_2.spl -module S3_EXERCICE_2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 S3_EXERCICE_2.spl C:/Hervan/VGA_Project/S3_EXERCICE_2.sym 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGA_Project/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGA_Project/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 
+xst -intstyle ise -ifn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.xst" -ofn "C:/Hervan/VGAAlmostDone/S3_EXERCICE_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraint.ucf -p xc3s200-ft256-5 S3_EXERCICE_2.ngc S3_EXERCICE_2.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ngd S3_EXERCICE_2.pcf 
+par -w -intstyle ise -ol high -t 1 S3_EXERCICE_2_map.ncd S3_EXERCICE_2.ncd S3_EXERCICE_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr S3_EXERCICE_2.pcf -ucf Constraint.ucf 
+bitgen -intstyle ise -f S3_EXERCICE_2.ut S3_EXERCICE_2.ncd 

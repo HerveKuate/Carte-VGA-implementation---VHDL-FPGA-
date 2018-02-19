@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+ESIGETELWord2 instance_name (
+    .clka(clka), 
+    .wea(wea), 
+    .addra(addra), 
+    .dina(dina), 
+    .douta(douta)
+    );
+
+

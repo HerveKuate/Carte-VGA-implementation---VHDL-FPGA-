@@ -1,0 +1,1 @@
+vhdtdtfi -prj HerveJedeineVGAFlagFrance -o "X:/Herve/M1/FPGA VHDL/TP/TPVHDL_HerveJedeine/HerveIvanVGAFlagFrance/Synchronisor.tfi" -module Synchronisor -template X:/Herve/Software/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work VGAController_02.vhd 

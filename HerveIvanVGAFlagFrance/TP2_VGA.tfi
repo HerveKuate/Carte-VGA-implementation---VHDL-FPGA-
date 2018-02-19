@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+TP2_VGA instance_name (
+    .mclk(mclk), 
+    .btn(btn), 
+    .swt(swt), 
+    .led(led), 
+    .an(an), 
+    .ssg(ssg), 
+    .hs(hs), 
+    .vs(vs), 
+    .red(red), 
+    .grn(grn), 
+    .blu(blu), 
+    .kd(kd), 
+    .kc(kc)
+    );
+
+

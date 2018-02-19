@@ -1,0 +1,6 @@
+[Inputs]
+mclk
+reset
+[Outputs]
+clk25Mhz
+[BiDir]

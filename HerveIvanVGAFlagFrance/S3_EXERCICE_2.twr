@@ -1,0 +1,82 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml S3_EXERCICE_2.twx S3_EXERCICE_2.ncd -o S3_EXERCICE_2.twr
+S3_EXERCICE_2.pcf -ucf Constraint.ucf
+
+Design file:              S3_EXERCICE_2.ncd
+Physical constraint file: S3_EXERCICE_2.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    2.302|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |an<0>          |    7.164|
+btn<1>         |an<1>          |    6.577|
+btn<2>         |an<2>          |    6.572|
+btn<3>         |an<3>          |    7.296|
+kc             |ssg<6>         |    6.878|
+kd             |ssg<7>         |    6.350|
+swt<0>         |led<0>         |    6.578|
+swt<1>         |led<1>         |    7.078|
+swt<2>         |led<2>         |    6.358|
+swt<3>         |led<3>         |    6.531|
+swt<4>         |led<4>         |    7.108|
+swt<5>         |led<5>         |    7.584|
+swt<6>         |led<6>         |    7.304|
+swt<7>         |led<7>         |    7.281|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jan 25 18:53:23 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 82 MB
+
+
+

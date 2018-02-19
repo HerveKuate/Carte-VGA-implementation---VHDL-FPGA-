@@ -1,0 +1,16 @@
+[Inputs]
+mclk
+kd
+kc
+=btn[3:0]=
+=swt[7:0]=
+[Outputs]
+hs
+vs
+red
+grn
+blu
+=led[7:0]=
+=an[3:0]=
+=ssg[7:0]=
+[BiDir]

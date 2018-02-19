@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Herve\M1\FPGA VHDL\TP\TPVHDL_HerveJedeine\HerveIvanVGAFlagFrance\TP2_VGA.ncd
+OUTFILE=X:\Herve\M1\FPGA VHDL\TP\TPVHDL_HerveJedeine\HerveIvanVGAFlagFrance\TP2_VGA.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=X:\Herve\M1\FPGA VHDL\TP\TPVHDL_HerveJedeine\HerveIvanVGAFlagFrance
+LICENSE=WebPack
+USER_INFO=__0_0_0
